@@ -3,10 +3,7 @@ def welcome
 end
 
 def deal_card
- 20.times do
-   card = deal_card
-   deal_card = rand(1..11)
- end
+ card = rand(1..11)
 end
 
 def display_card_total
