@@ -7,7 +7,7 @@ def deal_card
 end
 
 def display_card_total(card_total)
-  puts "Your card total is #{card_total}"
+  print "Your card total is #{card_total}"
 end
 
 def prompt_user
@@ -41,3 +41,4 @@ end
 def runner
   # code runner here
 end
+ 
